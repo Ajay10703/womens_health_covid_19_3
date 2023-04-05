@@ -200,7 +200,7 @@ section.cmn-heading.welcome-sec h2{ padding: 8px 0px 15px; letter-spacing: 1px; 
 section.cmn-heading.welcome-sec h2 span{color: #f8682c;}
 section.cmn-heading.welcome-sec p { width: 91%;padding:7px 0px ;}
 section.cmn-heading.welcome-sec ul li::before{
-	background-color: #fff;
+	background-color: #f8682c;
 	color: #000;
 }
 .about-cont { padding: 40px 0px; position: relative; }
