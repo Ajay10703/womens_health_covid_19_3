@@ -206,9 +206,9 @@ section.cmn-heading.welcome-sec p { width: 91%; margin: auto; }
 
 section.cmn-heading.service-sec { padding: 80px 0px 40px;text-align: center;position: relative;margin-top: -389px;}
 
-.service-box { min-height:480px;    background: #f8682c; border-radius: 50px 0px; overflow: hidden;-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.16);
+.service-box { min-height:500px;    background: #f8682c; border-radius: 50px 0px; overflow: hidden;-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.16);
 -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.16);box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.16);}
-.image-box { position: relative; height: 266px; background-position: center; background-repeat: no-repeat; background-size: cover; margin-bottom: 60px;}
+.image-box { position: relative; height: 360px; background-position: center; background-repeat: no-repeat; background-size: cover; margin-bottom: 60px;}
 .icon {border: 6px solid #f8682c;position: absolute; top: auto; bottom: -50px; left: 0; right: 0; margin: auto; width: 100px; height: 100px; background: #fff; border-radius: 100%; padding:20px; }
 .icon img{ width: 100%;}
 .service-box h3{ padding-bottom: 20px;color: #134d8d; text-transform:capitalize;}
@@ -225,8 +225,12 @@ a.cmn-buttn.bottom-buttn { position: relative; z-index: 1; margin-top: 40px; bor
 a:hover.cmn-buttn.bottom-buttn{background:#134d8d;}
 
 .bott-cont{background:#eeeeee;}
-.img-left{background:  url('../images/s4.jpg') center center no-repeat;background-size: cover;height:800px; }
-.img-right{background:  url('../images/s5.jpg') center center no-repeat;background-size: cover;height:800px; }
+.img-left{background:  url('../images/img9.jpg') center center no-repeat;background-size: cover;height:800px; }
+.img-right{background:  url('../images/image6.png') center center no-repeat;background-size: cover;height:800px; }
+.img-left2{background:  url('../images/image10.png')}
+.img-right2{background:  url('../images/image2.png')}
+.img-left3{background:  url('../images/image4.png')}
+
 .img-left, .cont-right,.img-right{width: 50%;display: inline-block; vertical-align: middle; margin: 0px -2px;}
 .cont-inn {max-width:90%; margin: 0px auto; position: relative;padding: 20px;}
 .cont-inn:after{position: absolute ; content:""; left: 0; top: 0; width: 250px; height: 150px; border:1px solid #f8682c; border-bottom: 0; border-right: 0;border-radius: 50px 0px;}
