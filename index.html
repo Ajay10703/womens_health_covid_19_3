@@ -148,18 +148,29 @@
         }
 
         @media(max-width:768px) {
+            section.cmn-heading.welcome-sec {
+                padding-top: 50px;
+            }
+
             p {
                 text-align: justify;
             }
 
             .card1,
             .card2 {
-                padding: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
             }
 
             .row>* {
                 padding-left: 0px;
                 padding-right: 0px;
+            }
+
+            .cont-inn p {
+                width: 91%;
+                margin-left: auto !important;
+                margin-right: auto !important;
             }
 
             .img-left,
@@ -168,6 +179,13 @@
                 width: 100%;
                 display: block;
                 margin: 0px -2px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .img-left,
+            .img-right {
+                height: 400px;
             }
 
             .cont-right {
@@ -268,9 +286,9 @@
         </div>
     </section>
     <section class="cmn-heading bott-cont ">
-        <div class="">
+        <div class="card1 ">
             <div class="img-left"></div>
-            <div class="cont-right">
+            <div class="cont-right container-md-fluid container">
                 <div class="cont-inn">
                     <h2>How Does <span>COVID-19</span> Affect Women's Health?</h2>
                     <p><strong>Women's health encompasses many areas of healthcare,
@@ -295,8 +313,8 @@
                 </div>
             </div>
         </div>
-        <div class="card2">
-            <div class="cont-right left">
+        <div class="card2 ">
+            <div class="cont-right left container-md-fluid container">
                 <div class="cont-inn">
                     <h2>Sexual & Reproductive <span>Health</span></h2>
                     <p> A few studies have been conducted since 2020 that indicate a connection between female
@@ -368,7 +386,7 @@
     <section class="cmn-heading bott-cont ">
         <div class="card1">
             <div class="img-left img-left2"></div>
-            <div class="cont-right">
+            <div class="cont-right container-md-fluid container">
                 <div class="cont-inn">
                     <h2>Cases of Sexual/Domestic Violence in the Wake of <span>COVID-19</span></h2>
                     <p>
@@ -394,8 +412,8 @@
             </div>
         </div>
         <div class="card2">
-            <div class="cont-right left">
-                <div class="cont-inn">
+            <div class="cont-right left container-md-fluid container">
+                <div class="cont-inn ">
                     <h2><span>COVID-19</span> and Pregnancy</h2>
                     <p>
                         While research on the topic is ongoing, some evidence suggests that pregnant women are at a
@@ -451,7 +469,7 @@
     <section class="cmn-heading bott-cont ">
         <div class="card1">
             <div class="img-left img-left3"></div>
-            <div class="cont-right last-cont">
+            <div class="cont-right last-cont container-md-fluid container">
                 <div class="cont-inn">
                     <h2>What To Do If You're Pregnant and Get <span>COVID-19</span>?</h2>
 

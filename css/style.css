@@ -117,7 +117,7 @@ audio, canvas, video { display: inline-block; }
 .isStuck .navbar-brand img#stc{ transform: translate(0px, -5em); margin: 0 auto; max-width: 100%; transition: linear 0.1s ease-in-out 0s; opacity:0; height:0px;}
 .isStuck .navbar-brand img#stc_1{ transform: translate(0px, 0em); transition: linear 0.2s ease-in-out 0s; opacity:1; width: 130px;}
 /*.isStuck ul {margin-top:16px !important;}*/
-.isStuck .navbar-nav > li > a{}
+
 .isStuck ul.nav.navbar-nav.navbar-right { margin-top:9px !important;}
 
 .isStuck .navbar-header a.navbar-brand {float: left;width:100px;margin-left: 75px;}
@@ -596,7 +596,8 @@ a.navbar-brand {width:100px;float: left;}
 
 @media (max-width: 640px) {
     
-.cont-inn {max-width: 85%;padding: 15px;}    
+.cont-inn {max-width: 100%;padding:10px 0px;} 
+  
 .cont-inn h2 {font-size: 28px;line-height: normal;}    
 small.about {display: none !important;}    
     
